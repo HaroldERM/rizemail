@@ -1,0 +1,180 @@
+.Sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #321a6e;
+    width: 40%;
+    min-width: 8em;
+    margin: 1em 0em 1em 1em;
+}
+
+.sidebar-info-container {
+    display: flex;
+    background-color: #4e184c;
+    border-radius: 0.2em;
+    margin: 0.1em;
+}
+
+.sidebar-filter-container {
+    display: flex;
+    justify-content: left;
+    background-color: #4e184c;
+    border-radius: 0.2em;
+    margin: 0em 0.1em;
+    margin-bottom: 0.1em;
+}
+
+.sidebar-contacts-container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #4e184c;
+    height: 100%;
+    border-radius: 0.2em;
+    margin: 0em 0.1em;
+    margin-bottom: 0.1em;
+}
+
+.sidebar-image-container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar-image-perfil {
+    width: 3em;
+    border-radius: 2em;
+    margin: 0.7em;
+}
+
+.sidebar-logout-container {
+    display: flex;
+    align-items: center;
+    border-radius: 0.2em;
+}
+
+.sidebar-chat-container {
+    display: flex;
+    align-items: center;
+    border-radius: 0.2em;
+}
+
+.sidebar-logout-button {
+    cursor: pointer;
+    width: 3.4em;
+    margin: 0.6em 0em;
+    border-radius: 2em;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.sidebar-chat-button {
+    cursor: pointer;
+    width: 3.4em;
+    margin: 0.6em 0em;
+    border-radius: 1em;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.sidebar-logout {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.sidebar-logout:hover {
+    color: red;
+}
+
+.sidebar-chat {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.sidebar-chat:hover {
+    color: rgb(28, 151, 24);
+}
+
+.sidebar-stats {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.sidebar-stats:hover {
+    color: rgb(0, 0, 0);
+}
+
+.sidebar-filterinput-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.2em;
+    background-color: rgba(175, 175, 175, 0.3);
+    color: white;
+    margin: 0.3em;
+    width: 100%;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.sidebar-input-filter {
+    display: flex;
+    color: white;
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0.3em;
+}
+
+.sidebar-search {
+    margin-left: 0.5em;
+}
+
+.sidebar-close {
+    margin-right: 0.5em;
+    cursor: pointer;
+}
+
+.sidebar-filterinput-container-info {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0.8em 0em;
+}
+
+.sidebar-filterinput-container-titulo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+@media screen and (max-width: 760px) {
+
+    .sidebar-logout,
+    .sidebar-chat {
+        font-size: 1em;
+    }
+
+    .sidebar-chat-button {
+        width: 1.6em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .sidebar-logout,
+    .sidebar-chat {
+        font-size: 1em;
+    }
+
+    .sidebar-chat-button {
+        width: 1.6em;
+    }
+}
